@@ -1,0 +1,33 @@
+{
+  "name": "semicolon-indent",
+  "version": "1.0.0",
+  "description": "indentation with semicolons",
+  "main": "index.js",
+  "bin": {
+    "semicolon-indent": "./bin/semicolon-indent"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christophwitzko/semicolon-indent.git"
+  },
+  "keywords": [
+    "semicolon",
+    "indent"
+  ],
+  "author": "Christoph Witzko <npm@christophwitzko.com> (http://christophwitzko.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christophwitzko/semicolon-indent/issues"
+  },
+  "homepage": "https://github.com/christophwitzko/semicolon-indent",
+  "dependencies": {
+    "esformatter": "^0.4.3",
+    "minimist": "^1.1.0"
+  },
+  "devDependencies": {
+    "standard": "*"
+  }
+}
