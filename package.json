@@ -9,7 +9,7 @@
   "scripts": {
     "test": "standard",
     "prepublish": "git pull --tags && semantic-release pre --no-ci",
-    "postpublish": "semantic-release post --no-ci"
+    "postpublish": "semantic-release post --no-ci && git checkout package.json"
   },
   "repository": {
     "type": "git",
@@ -30,7 +30,7 @@
     "minimist": "^1.1.0"
   },
   "devDependencies": {
-    "semantic-release": "^1.2.0",
+    "semantic-release": "^2.0.0",
     "standard": "*"
   }
 }
